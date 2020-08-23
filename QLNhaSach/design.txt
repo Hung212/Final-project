@@ -1,0 +1,12 @@
+
+tblSach (id, tenSach, giaBan, soLuong)
+tblLoaiSach (id, tenLoai)
+tblTacGia (id, ten, ngaySinh, moTa)
+tblKhachHang(id, tenKhachHang, diaChi, dienThoai, email)
+tblHoaDon (id, ngayTao, tenNhanVien, tongTien)
+
+TheLoaiSach(id, id_tblSach, id_tblTheLoai)
+PhieuNhapSach(id, id_tblSach, soLuong, ngay)
+ChiTietHoaDonBanSach(id, id_tblHoaDon, id_tblKhachHang, id_tblSach, soLuong)
+BaoCaoTon(id, id_tblSach, chiPhi, ngay, moTa)
+BaoCaoCongNo(id, id_tblKhachHang, noTien, ngayNo, moTa)
